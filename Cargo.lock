@@ -5,6 +5,9 @@ version = 4
 [[package]]
 name = "dino"
 version = "0.1.0"
+dependencies = [
+ "engine",
+]
 
 [[package]]
 name = "engine"
@@ -14,9 +17,14 @@ version = "0.1.0"
 name = "menu"
 version = "0.1.0"
 dependencies = [
+ "dino",
  "engine",
+ "snake",
 ]
 
 [[package]]
 name = "snake"
 version = "0.1.0"
+dependencies = [
+ "engine",
+]

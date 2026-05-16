@@ -5,3 +5,5 @@ edition = "2024"
 
 [dependencies]
 engine.path = "../engine"
+dino.path = "../dino"
+snake.path = "../snake"
